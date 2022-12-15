@@ -1,11 +1,10 @@
+
 export interface ICard {
     number: string,
     name: string,
-    month: number,
+    month: string,
     year: number,
-    cvv: string,
-    number1: string,
-    number2: string,
-    number3: string,
-    number4: string,
+    cvc: string,
+    focus: string
+   
 }  

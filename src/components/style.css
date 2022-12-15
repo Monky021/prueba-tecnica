@@ -1,12 +1,15 @@
 
 
 .form {
-    background-color: #95b8f6;
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0px 5px 20px 5px #cfcfcf;
+    box-shadow: 0px 5px 20px 5px #6990d3;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 2rem;
+    height: 35vh;
+    width: 30vw;
 
 }
 
@@ -26,13 +29,14 @@ input, select {
 
 .form__number-group {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 5px;
 }
 
 .form__number-group input {
     
-    width: 20%;
+    width: 100%;
 }
 
 .form__name{
@@ -46,7 +50,7 @@ input, select {
     margin-top: 5px;
 }
 
-.form__date-cvv{
+.form__date-cvc{
 
     display: flex;
     width: 100%;
@@ -58,17 +62,17 @@ input, select {
     flex-direction: column;
     width: 60%;
 }
-.form__date-cvv select {
+.form__date-cvc select {
     padding: 0;
     height: 2.1rem;
 }
 
-.form__cvv{
+.form__cvc{
     display: flex;
     flex-direction: column;
     width: 40%;
 }
-.form__cvv input{
+.form__cvc input{
     
     width: 50%;
 }
@@ -87,3 +91,47 @@ input, select {
 .group__select select:first-child {
     margin-right: 3rem;
 } 
+.group__select div {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    padding: 10px 5px; 
+    margin-top: 1rem;
+    border: none;
+    background-color: #fa5f49;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    
+}
+
+form button:hover {
+    cursor: pointer;
+    
+}
+
+
+span {
+    color: #fa5f49;
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8rem;
+
+}
+
+.table__cards{
+    border-collapse: collapse;
+    margin-top: 2rem;
+    width: 70%;
+    background-color: #ddd;
+    border-radius: 10px;
+
+}
+
+.table__cards td, .table__cards th {
+    border: 1px solid #6990d3;
+    border-radius: 10px;
+    padding: 8px;
+}

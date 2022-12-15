@@ -11,7 +11,7 @@ const initialState: ICard = {
     name: '',
     month: '',
     year:0,
-    cvc: '',
+    cvc: 0,
     focus: '',
     
 } 

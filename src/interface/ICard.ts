@@ -4,7 +4,7 @@ export interface ICard {
     name: string,
     month: string,
     year: number,
-    cvc: string,
+    cvc: number,
     focus: string
    
 }  

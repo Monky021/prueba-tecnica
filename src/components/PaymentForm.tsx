@@ -14,7 +14,7 @@ export const PaymentForm = () => {
     name: "",
     month: "",
     year: 0,
-    cvc: "",
+    cvc: 0,
     focus: ''
   };
   

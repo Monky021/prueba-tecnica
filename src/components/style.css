@@ -46,7 +46,7 @@ input, select {
     /* align-items: center; */
 }
 .form__name input {
-    /* width: 90%; */
+    width: 100%;
     margin-top: 5px;
 }
 
@@ -54,12 +54,15 @@ input, select {
 
     display: flex;
     width: 100%;
+    
+    flex-wrap: wrap;
 
     /* justify-content: space-around; */
 }
 .form__box-date{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 60%;
 }
 .form__date-cvc select {
@@ -134,4 +137,46 @@ span {
     border: 1px solid #6990d3;
     border-radius: 10px;
     padding: 8px;
+}
+
+
+@media (max-width: 1100px){
+ 
+   .form__box-date{
+    
+        width: 100%;
+    }
+    .form__cvc{
+        display: flex;
+        justify-content: center;
+       width: 100%;
+    }
+    .form__cvc input{
+        
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 390px){
+
+    .form {
+        
+        height: 50vh;
+        width: 60vw;
+
+    }
+    .form__number{
+        margin-top: 20px;
+    }
+    .form__cvc{
+        display: flex;
+        justify-content: center;
+       width: 100%;
+    }
+    .form__cvc input{
+        
+        width: 50%;
+    }
+    
 }

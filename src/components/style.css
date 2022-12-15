@@ -1,0 +1,89 @@
+
+
+.form {
+    background-color: #95b8f6;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 5px #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+.form__number{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input, select {
+    border-radius: 5px;
+    padding: .5rem;
+    border: 1px solid #add5fa;
+    outline: none;
+    
+}
+
+.form__number-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.form__number-group input {
+    
+    width: 20%;
+}
+
+.form__name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* align-items: center; */
+}
+.form__name input {
+    /* width: 90%; */
+    margin-top: 5px;
+}
+
+.form__date-cvv{
+
+    display: flex;
+    width: 100%;
+
+    /* justify-content: space-around; */
+}
+.form__box-date{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.form__date-cvv select {
+    padding: 0;
+    height: 2.1rem;
+}
+
+.form__cvv{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.form__cvv input{
+    
+    width: 50%;
+}
+
+.group__select{
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100%;
+}
+
+.group__select input  {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 100%;
+}
+.group__select select:first-child {
+    margin-right: 3rem;
+} 

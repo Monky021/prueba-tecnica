@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import { Card } from './components/Card'
+import { PaymentForm } from './components/PaymentForm'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <form className="App">
-        
-    </form>
+    <div className='container'>
+      <Card />
+      <PaymentForm/>
+    </div>
   ) 
 }
 

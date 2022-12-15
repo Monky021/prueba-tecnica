@@ -7,7 +7,7 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=/prueba-tecnica/",
     "preview": "vite preview"
   },
   "dependencies": {
